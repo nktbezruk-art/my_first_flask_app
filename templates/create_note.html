@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    <form action="{{ url_for('create_note') }}" method="POST">
+        <div class="mb-3">
+            <input type="text" class="form-control" name="title" placeholder="Введите заголовок">
+        </div>
+        <div class="mb-3">
+            <textarea class="form-control" name="introduction" rows="4" placeholder="Введите краткое описание"></textarea>
+        </div>
+        <div class="mb-3">
+            <textarea class="form-control" name="text" rows="8" placeholder="Введите заметку"></textarea>
+        </div>
+        <input type="submit" class="btn btn-primary" value="Создать">
+    </form>
+</div>
+{% endblock %}
