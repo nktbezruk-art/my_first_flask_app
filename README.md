@@ -25,8 +25,3 @@ git clone https://github.com/nktbezruk-art/my_first_flask_app.git
 cd my_first_flask_app
 pip install -r requirements.txt
 python app.py
-
-👨‍💻 Автор
-Никита - Python разработчик
-
-⭐ Если понравилось, поставьте звезду!
